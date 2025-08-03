@@ -22,17 +22,17 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# images
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.svg
-*.pdf
 
-# videos
-*.mp4
-*.mov
-*.avi
-*.mkv
-*.webm
+# ignore images in src only
+/src/**/*.jpg
+/src/**/*.jpeg
+/src/**/*.png
+/src/**/*.gif
+
+# ignore videos in src only
+/src/**/*.mp4
+/src/**/*.mov
+/src/**/*.avi
+/src/**/*.mkv
+/src/**/*.webm
+
